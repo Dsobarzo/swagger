@@ -1,0 +1,20 @@
+{
+  "name": "api-laboratorios-de-simulacion-umag",
+  "version": "1.0.0",
+  "description": "API programada en java spring boot V3.1.1 para manejar la informacion de los laboratorios de simulacion en la facultad de Ciencias de la salud (Universidad de Magallanes), con una base de datos postgresSQL en una instancia RDS-AWS y un backend SandBox railway (hambiente de desarrollo).",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^2.2.3"
+  }
+}
